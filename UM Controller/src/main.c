@@ -10,7 +10,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 
-#include "../../TestRootkit1/src/ioctl.h"
+#include "../../LKM/src/ioctl.h"
 
 #define FINIT_MODULE(fd, param_values, flags) syscall(__NR_finit_module, fd, param_values, flags)
 #define DELETE_MODULE(name, flags) syscall(__NR_delete_module, name, flags)
