@@ -24,12 +24,14 @@ A simple implementation of a kernel-level rootkit. Includes the functionality to
   
 
 
-# Project structure
-## LKM
+# LKM
 LKM located in LKM directory. This directory contains 2 folder: src and build. Build folder contains Makefile for building LKM module. Src directory contains full source code of rootkit with main file named as rk_main.c
 
-## UM
+# UM
 UM located in LKM directory and has same folder structure as LKM folder.
 
 # Build and Install
 Use make utility for build LKM and UM. After install ko file using insmod utility.
+
+# Warnings
+The project was created for informational and educational purposes. The author does not bear consequences for the use of this project for illegal purposes.
