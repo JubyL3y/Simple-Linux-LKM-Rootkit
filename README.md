@@ -4,23 +4,23 @@ A simple implementation of a kernel-level rootkit. Includes the functionality to
 # Features
 1) Interception of systemcalls using Ftrace
 2) Intercepted syscalls:
-    - Getdents
-  - Getdents64
-  - Read
-  - Mkdir
-  - Readdir
+   - Getdents
+   - Getdents64
+   - Read
+   - Mkdir
+   - Readdir
 3) Privilege Escalation for process by his pid
 4) Communication with the driver is implemented through channels:
-  - Procfs
-  - Chardev
-  - IOCTL code
+   - Procfs
+   - Chardev
+   - IOCTL code
 5) Tested at kernel 3.x - 4.x, 5.x not tested
 6) Functional:
-  - Hide/Unhide Process
-  - Hide/Unhide Network port
-  - Hide/Unhide Kernel module
-  - Hide/Unhide File
-  - Change process credentials ( Privilege escalation to root )
+   - Hide/Unhide Process
+   - Hide/Unhide Network port
+   - Hide/Unhide Kernel module
+   - Hide/Unhide File
+   - Change process credentials ( Privilege escalation to root )
   
 
 
