@@ -1,5 +1,5 @@
 # Simple-Linux-LKM-Rootkit
-A simple implementation of a kernel-level rootkit. Includes the functionality to intercept some system calls, as well as the functionality to change the rights of a certain process.
+A simple implementation of a kernel-level rootkit. Includes the functionality to intercept some system calls, as well as the functionality to change the rights of a certain process. The method of intercepting system calls is implemented based on the method described in the https://xcellerator.github.io/ .
 
 # Features
 1) Interception of systemcalls using Ftrace
